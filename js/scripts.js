@@ -25,8 +25,14 @@ $(document).ready(function() {
     if (!result) {
     $(".not").text("not");
   } else {
-    $(".not").text("")
-  }
+    $(".not").text("");
+    };
+
+  //   if (typeof word !=='string') {
+  //   alert("Please enter a word.");
+  // } else {
+  //   reverseString(word);
+  // }
 
     $("#results").show();
   });
